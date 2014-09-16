@@ -1,0 +1,38 @@
+body {
+	/*Estilos CSS*/
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	/* Isso impede o scrolling */
+	overflow: hidden;
+}
+
+/* O quadro1 envolve múltiplas decisões */
+.quadro1 {
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	background: #333333;
+	width: 800px;
+	padding-left: 15px;
+}
+
+/* Comportamento dos links, quadro 1 */
+a:link {
+	color:#0000FF;
+}
+	
+a:visited {
+	color:#FF0000;
+}
+	
+a:hover {
+	color:#FF00FF;
+}
+	
+a:active {
+	color:#FFFFFF;
+	text-decoration: overline;
+}
+		
+
+		
